@@ -1,0 +1,51 @@
+p-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+p-table th {
+  color: var(--secondary-color);
+  font-weight: bold;
+  padding: 12px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+p-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+}
+
+p-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+p-table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+p-table tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+
+:host ::ng-deep .p-paginator .p-paginator-pages .p-paginator-page {
+  margin: 0 2px;
+  padding: 6px ;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+:host ::ng-deep .p-paginator .p-paginator-pages .p-paginator-page:hover {
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  color: #fff;
+}

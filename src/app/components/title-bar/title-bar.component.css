@@ -1,0 +1,70 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background: linear-gradient(to right, var(--secondary-color), var(--primary-color)); /* Gradient background */
+
+  
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+
+        mat-icon {
+            font-size: 28px;
+            color: white;
+          }
+      
+          .logo-image {
+            height: 30px; 
+            width: auto; 
+          }
+        }
+      }
+
+  
+      .breadcrumb {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        color: white;
+      
+        span {
+          font-size: 18px;
+        }
+      
+        mat-icon {
+          font-size: 24px;
+        }
+      
+        .favorite, .admin, .work {
+          margin-left: 10px; 
+          color: white;
+        }
+      }
+      
+      .actions {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      
+        button {
+          color: white;
+        }
+      
+        mat-icon {
+          font-size: 24px;
+        }
+      
+        .enhancer-text {
+          font-size: 16px;
+          font-weight: bold;
+          color: white;
+        }
+      
+        mat-icon[aria-label="access_time"] {
+          font-size: 20px;
+        }
+      }
+      

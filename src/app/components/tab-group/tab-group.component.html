@@ -1,0 +1,48 @@
+<div class="container">
+  <!-- Tab Group -->
+  <mat-tab-group class="tab-group">
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <mat-icon>drafts</mat-icon>
+        <span>Drafts</span>
+        <span class="badge">40</span>
+      </ng-template>
+    </mat-tab>
+
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <mat-icon>bar_chart</mat-icon>
+        <span>Active</span>
+        <span class="badge">40</span>
+      </ng-template>
+    </mat-tab>
+
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <mat-icon></mat-icon>
+        <span>Inactive</span>
+        <span class="badge">40</span>
+      </ng-template>
+    </mat-tab>
+
+    <mat-tab>
+      <ng-template mat-tab-label>
+        <mat-icon>close</mat-icon>
+        <span>Deleted</span>
+        <span class="badge">40</span>
+      </ng-template>
+    </mat-tab>
+  </mat-tab-group>
+
+  <div class="right-align-container">
+    <!-- Search Bar -->
+    <mat-form-field class="search-bar">
+      <mat-icon matPrefix>filter_alt</mat-icon>
+      <input matInput placeholder="Search" /> 
+    </mat-form-field>
+
+    <button mat-icon-button>
+        <mat-icon>more_horiz</mat-icon>
+      </button>
+  </div>
+</div>
